@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>products</title>
+<Link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+<div id="sec">
+<h2 id="heading">Buy now ?</h2>
+
+<p class="para">Click buy now to buy your product.<br>Click cancel to cancel purchase and <br>go back to shop</p>
+
+<br><br><br><br>
+
+<a href="buy.html"><input id="buynow" type="button" value="Buy Now" onclick="return buy()"></a>
+<a href="startshopping.html"><input id="cancel" type="submit" value="Cancel"></a>
+
+</div>
+<script type="text/javascript">
+	function buy()
+	{
+		alert("Are you sure u wanted to purchase this item ?");
+		return true;
+	}
+</script>
+</body>
+</html>

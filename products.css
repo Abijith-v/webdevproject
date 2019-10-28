@@ -1,0 +1,72 @@
+*
+{
+	font-family:Century Gothic;
+	color: #fff;
+}
+body
+{
+	background:url(bg1.jpg);
+}
+#sec
+{
+	
+	margin-left: 450px;
+	border: 3px solid #fff;
+	width: 400px;
+	height: 350px;
+	margin-top: 150px;
+}
+
+.para
+{
+	text-align: center;
+	margin-top: 70px;
+}
+
+#heading
+{
+	text-align: center;
+}
+#buynow
+{
+	border: 1px solid #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-left:105px;
+	background-color: transparent;
+	transition: 0.2s ease;
+}
+#buynow:hover
+{
+
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+}
+
+
+#cancel
+{
+	border: 1px solid #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-left:30px;
+	background-color: transparent;
+	transition: 0.2s ease;
+}
+#cancel:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+}
+
+.links
+{
+	list-style-type: none;
+}
+
+.linkss
+{
+	display: inline-block;
+}

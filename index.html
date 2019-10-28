@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homepage</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+
+	<div class="list clearfix">
+		<img src="logo.png">
+		
+		<ul id="nav">
+			<li><a class="links" href="#home">Home</a></li>
+			<li><a class="links" href="login2.html">login</a></li>
+			<li><a class="links" href="#abtus">About us</a></li>
+			<li><a class="links" href="#faq">FAQ</a></li>
+			<li><a class="links" href="#contactus">contact us</a></li>
+			<li><a class="links" href="#feedbacksandreviews">Feedbacks</a></li>
+			<li><a class="links" href="#follow">Follow us</a></li>
+		</ul>
+	</div>	
+	<a name="home"></a>
+	<div class="mid">
+		<p class="perf"><b>The perfect solution for Ebooks</b></p>
+		
+			<p><a id="shop" href="login2.html" target="_blank"><b>Start</b></a><p>
+			
+</header>
+
+
+<a name="abtus"></a>
+<div>	
+		<br><br>
+		<p id="aboutus"><b>About us</b></p>
+		<img id="smalllogo" src="logo2.png">
+		<p id="about">We provide online bookstore selling Ebooks for millions of people all over the world.<br>We provide 100% genuine products.We ensure easy transactions and hazzle free <br>payment.You can get ensured refund if necessary for every purchase. </p>
+		<br><br>
+</div>
+
+
+<div id="feedback">
+<a name="feedbacksandreviews"></a>
+<br>
+<p id="feedbackheading"><b>Feedbacks and Reviews</b></p>
+	<p id="para1"><img id="user1" src="user1.png"><br><br><br>
+		<br>
+		<br>TALHA<br><font class="blue">(mohammedtala5420@gmail.com)</font><br><br><br><br>This website is always a reliable<br>source for buying E-books providing<br>them at really good rates.<br><br>Absolutely loved it <3. I can <br>easily recommend this site to <br>my friends.<br>
+
+	</p>
+	<p id="para2"><img id="user2" src="user2.png"><br><br><br>
+		<br>
+		<br>SHIVAM<br><font class="blue">(shivamsaubhari123@gmail.com)</font><br><br><br><br>This website is my only source for<br>purchasing E-books.The offers<br>are really awesome and i'd rate<br>this site a 5/5.<br><br>Made 6 purchases so far<br>and im really satisfied with<br>my decision choosing this site.<br>
+
+	</p>
+</div>
+
+<a name="faq"></a>
+<div>
+	<br><br>
+	<h1 id="faqhead">FAQs</h1>
+	<br><br><br>
+<div>
+	<button type="button" class="collapsible">How can i get buy an E-book ?</button>
+	<div class="content">
+	  <p>You can login with your id and easily buy any book from the shop.</p>
+	</div>
+		<button type="button" class="collapsible">How to cancel a purchase ?</button>
+	<div class="content">
+	  <p>You can click cancel and cancel your orders.</p>
+	</div>
+		<button type="button" class="collapsible">How to login into the website ?</button>
+	<div class="content">
+	  <p>You can login with your id you created whenever you wanted</p>
+	</div>
+		<button type="button" class="collapsible">Where can i find customer care number ?</button>
+	<div class="content">
+	  <p>You can find our contact details by clicking contact us on top right corner.</p>
+	</div>
+	<button type="button" class="collapsible">How to follow the social medias ?</button>
+	<div class="content">
+	  <p>You can click on follow us on top right corner and click on any social media link to follow.</p>
+	</div>
+
+
+
+</div>
+<br><br><br><br>
+</div>
+
+<div id="contactus">
+	<a name="contactus"></a>
+
+	<p id="contact"><br><b>Contact us</b></p><br>
+	<p id="contactdetails">Email us <font class="blue">@abijithv@gmail.com</font> for any queries you have regarding our website.<br><br>call customer care ph :<font class="blue"> 8078802755 | 9629555100</font></p>
+	<br>
+<form>
+	
+	Input your Email to keep updated with us :  <input id="mail" type="text" name="email" placeholder="type here" class="giveemail">
+	<a id="subbutton" href="thanks.html"><font id="notify"> Notify me</font></a>
+</form>
+
+<br><br><br><br><b>
+	<a name="follow"></a>
+<p id="follow">Follow us on social medias :
+</p>
+<a href="http:\\www.instagram.com" target="_blank"><img id="ig" src="iglogo.png"></a>
+<a href="http:\\www.twitter.com" target="_blank"><img id="twitter" src="twitterlogo.png"></a>
+<a href="http:\\www.youtube.com" target="_blank"><img id="yt" src="ytlogo.png"></a>
+<a href="http:\\www.facebook.com" target="_blank"><img id="fb" src="fblogo1.png"></a>
+</b>
+</p>
+
+<br><br><br><br><br>
+
+</div>
+
+
+
+<script type="text/javascript">
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++)
+ {
+  coll[i].addEventListener("click", function() 
+  {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight)
+    {
+      content.style.maxHeight = null;
+    } else 
+    {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
